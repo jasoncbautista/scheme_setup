@@ -25,3 +25,9 @@
   )
 
 )
+
+
+
+(define (main args)
+  (quickrep (irregex (car args)) (cadr args)  )
+)

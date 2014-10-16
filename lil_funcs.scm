@@ -1,0 +1,5 @@
+(define (makelist n)
+  (if (= n 0)
+    (list 0)
+    (cons n (makelist (- n 1)))))
+(makelist 4)

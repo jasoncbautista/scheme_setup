@@ -31,4 +31,4 @@
   (if (= n 0)
     (car listx)
     (nth (- n 1) (cdr listx))))
-(nth 1 '(0 1 2 3))
+(nth 1 '(0 4 2 3))

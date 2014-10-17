@@ -23,3 +23,12 @@
     '()
     (cons (addFive (car items)) (add5list (cdr items)))))
 (add5list '(1 2 3 4 5))
+
+
+
+
+(define (nth n listx)
+  (if (= n 0)
+    (car listx)
+    (nth (- n 1) (cdr listx))))
+(nth 1 '(0 1 2 3))

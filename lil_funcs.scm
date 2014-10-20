@@ -31,4 +31,11 @@
   (if (= n 0)
     (car listx)
     (nth (- n 1) (cdr listx))))
+
+(define (lastnth n listx)
+  (if (= n 0)
+    listx
+    (lastnth (- n 1) (cdr listx))))
+
+
 (nth 1 '(0 4 2 3))

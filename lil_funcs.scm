@@ -38,4 +38,17 @@
     (lastnth (- n 1) (cdr listx))))
 
 
+(define (lastnth n listx, listNew)
+  (if (= n 0)
+    listNew
+    (lastnth (- n 1) listx  (cons (car listx)  listNew) )
+  )
+)
+
+(define (n lastnth_)
+  
+  (lastnth n lastnth '())
+  
+)
+
 (nth 1 '(0 4 2 3))

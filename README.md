@@ -11,3 +11,7 @@ csi
 
 OR 
 csc  -o palindrome palindrome.scm
+
+
+#CSIP
+sudo apt-get install cisp

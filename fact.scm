@@ -7,3 +7,12 @@
 
 
 )
+
+
+
+(define (addFive x)
+  (+ 5 x))
+(addFive 10)
+
+
+
